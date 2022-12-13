@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-	putchar(_putchar());
+	_putchar('_');
 	return (0);
 }
