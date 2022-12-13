@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (success)
  */
-int _islower (int c)
+int _islower(int c)
 {
 	if (islower(c))
 	{
@@ -14,5 +14,4 @@ int _islower (int c)
 	}
 	else
 		return (0);
-	
 }
