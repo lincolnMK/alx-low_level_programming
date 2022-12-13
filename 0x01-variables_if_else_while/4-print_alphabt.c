@@ -15,13 +15,13 @@ int main(void)
 	{
 		if (x == 'e')
 		{
-			x++;
+			x--;
 		}
 		else if (x == 'q')
 		{
-			x++;
+			x--;
 		}
-		else 
+		else
 		{
 			putchar(x);
 		}
