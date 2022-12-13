@@ -15,11 +15,11 @@ int main(void)
 	{
 		if (x == 'e')
 		{
-			x--;
+			x = x;
 		}
 		else if (x == 'q')
 		{
-			x--;
+			x = x;
 		}
 		else
 		{
