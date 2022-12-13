@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.hi>
 /**
  * _islower -prints if case is lower or upper
  *
@@ -6,7 +7,7 @@
  */
 int _islower (int c)
 {
-	if (islower(c));
+	if (islower(c))
 	{
 		return (1);
 	}
