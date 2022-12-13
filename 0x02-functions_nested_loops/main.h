@@ -8,6 +8,9 @@ int _putchar(char c);
 /*print alphbet */
 void print_alphabet(void);
 
+/*print alphabet x10*/
+void print_alphabet_x10(void);
+
 #endif
 /**
  * _putchar from git
