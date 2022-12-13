@@ -14,11 +14,11 @@ int main(void)
 	for (x = '0'; x <= '9'; x++)
 	{
 		putchar(x);
-		while(x < 9)
-		{
+		while(x == 9)
+		continue;
 			putchar(',');
 			putchar(' ');
-		}
+	
 	}
 	putchar('\n');
 	return (0);
