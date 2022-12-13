@@ -1,5 +1,6 @@
 #include"main.h"
 #include<stdio.h>
+#include<ctype.h>
 /**
  * _islower -prints if case is lower or upper
  *
