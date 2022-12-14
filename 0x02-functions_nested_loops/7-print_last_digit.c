@@ -8,7 +8,7 @@
 int print_last_digit(int n)
 {
 	int ld;
-	
+
 	ld = abs(n % 10);
 	_putchar((ld % 10) + '0');
 	return (ld);
