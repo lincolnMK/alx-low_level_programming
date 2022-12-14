@@ -34,6 +34,10 @@ void times_table(void);
 
 /*this timer for jac bawa*/
 void jack_bauer(void);
+
+
+/*this will print to ten */
+void print_to_98(int n);
 #endif
 /**
  * _putchar from git
