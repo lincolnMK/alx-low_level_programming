@@ -13,8 +13,14 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= 98; i++)
 		{
+			 if ( i> 9)
+                                {
 			_putchar((abs(i) / 10) + '0');
+				}
 			_putchar((abs(i) % 10) + '0');
+		 while (i==98)
+                       {continue;
+                       }
 			_putchar(',');
 			_putchar(' ');
 		}
