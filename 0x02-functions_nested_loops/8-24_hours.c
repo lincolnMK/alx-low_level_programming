@@ -1,6 +1,7 @@
 #include "main.h"
 /*
- * jack_bauer - this prints the hours
+ * jack_bauer - prints the hours
+ *
  * Return : will return void
  *
  */
