@@ -5,6 +5,8 @@
  * Return : will return void
  *
  * Description: this one does ad
+ *
+ * jack_bauer: resposnds with time
  */
 void jack_bauer(void)
 {
