@@ -3,11 +3,11 @@
  *
  * Return: result will be returned after the sum
  *
- * @n: firs parameter 
+ * @n: firs parameter
  * @m: second parameter
  *
  */
 int add(int n, int m)
 {
-	return(n+m);
+	return (n + m);
 }
