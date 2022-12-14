@@ -26,6 +26,9 @@ int _abs(int n);
 /*prints last digit*/
 int print_last_digit(int n);
 
+/*prints sum of given two numbers*/
+int add(int n, int m);
+
 #endif
 /**
  * _putchar from git
