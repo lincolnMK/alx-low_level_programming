@@ -31,6 +31,9 @@ int add(int n, int m);
 
 /*print times table fir 9*/
 void times_table(void);
+
+/*this timer for jac bawa*/
+void jack_bauer(void);
 #endif
 /**
  * _putchar from git
