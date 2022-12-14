@@ -39,10 +39,12 @@ void times_table(void)
 					_putchar(',');
 					_putchar(' ');
 				}
-				else
+				else 
 					continue;
+					_putchar(' ');
 			}
+		}
 			_putchar('\n');
 		}
 	}
-}
+
