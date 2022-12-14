@@ -5,7 +5,7 @@
  * _islower -prints if case is lower or upper
  *
  * Return: Always 0 (success)
- * c: input value int
+ * @c: first input value int
  */
 int _islower(int c)
 {
