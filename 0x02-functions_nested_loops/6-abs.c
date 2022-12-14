@@ -1,9 +1,9 @@
 /**
  * _abs - prints absolute value
- * @int : first operancd
+ * @n : first operancd
  * Return: Always 0 (success)
  */
-int _abs(int)
+int _abs(int n)
 {
-	return(abs(int));
+	return(abs(n));
 }	
