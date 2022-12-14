@@ -29,6 +29,8 @@ int print_last_digit(int n);
 /*prints sum of given two numbers*/
 int add(int n, int m);
 
+/*print times table fir 9*/
+void times_table(void);
 #endif
 /**
  * _putchar from git
