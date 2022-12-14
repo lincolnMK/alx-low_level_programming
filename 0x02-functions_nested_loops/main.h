@@ -13,6 +13,9 @@ void print_alphabet_x10(void);
 
 /*checks for lower cases*/
 int _islower(int c);
+
+/*tel if is alpha*/
+int _isalpha(int c);
 #endif
 /**
  * _putchar from git
