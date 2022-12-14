@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<ctype.h>
 /**
- * _islower -prints if case is lower or upper
+ * _isalpha - prints if case is lower or upper
  *
  * Return: Always 0 (success)
  * @c: first input value int
