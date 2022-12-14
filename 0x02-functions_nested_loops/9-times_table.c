@@ -40,8 +40,10 @@ void times_table(void)
 					_putchar(' ');
 				}
 				else 
+				{
 					continue;
-					_putchar(' ');
+				}
+				_putchar(' ');
 			}
 		}
 			_putchar('\n');
