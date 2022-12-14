@@ -1,10 +1,8 @@
 #include "main.h"
 /**
  * times_table - muliple to 9
- *
- * Return: always 0 bt thid time table
- *
- */
+ * * Return: always 0 bt thid time table
+ * */
 void times_table(void)
 {
 	int i;
@@ -30,20 +28,19 @@ void times_table(void)
 					_putchar(',');
 					_putchar(' ');
 				}
-				else 
+				else
 					continue;
 			}
 			else
 			{
 				_putchar((x / 10) + '0');
 				_putchar((x % 10) + '0');
-				
 				if (j < 9)
 				{
 					_putchar(',');
 					_putchar(' ');
 				}
-				else 
+				else
 				{
 					continue;
 				}
@@ -52,4 +49,3 @@ void times_table(void)
 			_putchar('\n');
 		}
 	}
-
