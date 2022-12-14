@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_last_digit - prints absolute value
  * @n : first operancd
@@ -8,5 +9,5 @@ int print_last_digit(int n)
 	int ld;
 	ld =n % 10;
 
-	return ((_putchar((ld%10)+'0'));
+	return (_putchar((ld%10)+'0'));
 }
