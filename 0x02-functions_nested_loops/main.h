@@ -23,6 +23,9 @@ int print_sign(int n);
 /*prints absolute value*/
 int _abs(int n);
 
+/*prints last digit*/
+int print_last_digit(int n);
+
 #endif
 /**
  * _putchar from git
