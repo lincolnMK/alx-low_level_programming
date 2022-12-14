@@ -1,8 +1,8 @@
 #include"main.h"
 #include<stdio.h>
 /**
- * print_sign -prints signs 
- * 
+ * print_sign -prints signs
+ *
  * Return: Always 0 (success)
  * @n: first input value int
  */
