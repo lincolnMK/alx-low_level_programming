@@ -20,6 +20,9 @@ int _isalpha(int c);
 /*prints sign */
 int print_sign(int n);
 
+/*prints absolute value*/
+int _abs(int);
+
 #endif
 /**
  * _putchar from git
