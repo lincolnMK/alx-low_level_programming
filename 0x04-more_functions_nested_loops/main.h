@@ -10,4 +10,7 @@ int _putchar(char c);
 /*is digit number*/
 int _isdigit(int c);
 
+/*multiplies*/
+int mul(int a, int b);
+
 #endif
