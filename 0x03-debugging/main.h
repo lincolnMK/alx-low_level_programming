@@ -3,7 +3,10 @@
 
 #include <stdio.h>
 
+/* positive or negative */
 void positive_or_negative(int i);
 
+/* finds largest number */
 int largest_number(int a, int b, int c);
+
 #endif /* MAIN_H */
