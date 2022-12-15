@@ -13,4 +13,7 @@ int _isdigit(int c);
 /*multiplies*/
 int mul(int a, int b);
 
+/*print number 0 -9*/
+void print_numbers(void);
+
 #endif
