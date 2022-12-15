@@ -5,7 +5,7 @@ include "main.h"
  * @c: only value iput
  * Return: 1 if yes and 0 if no
  */
-int _isdiigit(int c)
+int _isdigit(int c)
 {
 	if ((c >= 0) && (c <= 9))
 	{
