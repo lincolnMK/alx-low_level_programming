@@ -1,4 +1,4 @@
-#inlcude <stdio.h>
+#include <stdio.h>
 
 /**
 * main - causes an infitnite loop
