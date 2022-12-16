@@ -7,13 +7,16 @@ int _isupper(int c);
 /* PUTCHAR */
 int _putchar(char c);
 
-/*is digit number*/
+/* is digit number */
 int _isdigit(int c);
 
-/*multiplies*/
+/* multiplies */
 int mul(int a, int b);
 
-/*print number 0 -9*/
+/* print number 0 -9 */
 void print_numbers(void);
+
+/* print most numbers */
+void print_most_numbers(void);
 
 #endif
