@@ -31,4 +31,6 @@ void print_diagonal(int n);
 /* print square*/
 void print_square(int size);
 
+/* fizz buzz */
+
 #endif
