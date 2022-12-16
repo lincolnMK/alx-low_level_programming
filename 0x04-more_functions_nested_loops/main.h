@@ -19,4 +19,7 @@ void print_numbers(void);
 /* print most numbers */
 void print_most_numbers(void);
 
+/* more numbers */
+void more_numbers(void);
+
 #endif
