@@ -9,6 +9,4 @@
 void reset_t0_98(int *n)
 {
 	*n = 98;
-
-	return (0);
 }
