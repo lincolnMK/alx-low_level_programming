@@ -13,6 +13,7 @@ void _puts(char *str)
 	while (str[k] != '\0')
 	{
 		printf("%s", (str + 1));
+		k++;
 	}
 	printf("\n");
 }
