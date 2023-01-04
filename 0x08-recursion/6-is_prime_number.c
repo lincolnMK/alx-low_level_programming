@@ -24,11 +24,12 @@ int _assess(int num, int i)
 	return (0);
 }
 
-/*
- * is_prime_number - finds prime numbers
- * return: primers numbers
- * @n: first operando
- */
+/**
+ *is_prime_number - finds prime numbers
+ *return: primers numbers
+ *@n: first operando
+ *Return: usually 0
+*/
 int is_prime_number(int n)
 {
 	int i;
