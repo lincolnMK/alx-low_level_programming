@@ -4,7 +4,7 @@
  * return: 0 always
  * @s: operand
  */
-void _print_rev_recursion(cha *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
