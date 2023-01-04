@@ -4,7 +4,7 @@
  * _assess - improvised fucntioin
  * Return: the square roo of the given number
  * @n: the number that needs the root of the saure
- * @i: another operando 
+ * @i: another operando
  */
 
 	int _assess(int i, int n)
@@ -30,7 +30,7 @@ int _sqrt_recursion(int n)
 {
 	int i = 0;
 
-	if (i < 0;)
+	if (i < 0)
 	{
 		return (-1);
 	}
