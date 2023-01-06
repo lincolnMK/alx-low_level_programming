@@ -1,4 +1,3 @@
 #!/bin/bash
-gcc -c *.c
-ar rc liall.a *.o
+gcc -c *.c & ar rc liall.a *.o
 
