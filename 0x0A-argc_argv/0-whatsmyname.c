@@ -5,8 +5,8 @@
  * @argv: array of them ergs
  * return: 0 always
  */
-int main(int _attribute_((_unused_))argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("\n", argv[0]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
