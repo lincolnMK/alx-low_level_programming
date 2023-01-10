@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strdup - returns same string on new memory space
- * @char: pointer of the input string
+ * @str: pointer of the input string
  * Return:  some string
  */
 char *_strdup(char *str)
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	}
 	str2 = malloc(sizeof(char) * (len + 1));
 
-	if (str == NULL)
+	if (str2 == NULL)
 	{
 		return (NULL);
 	}
