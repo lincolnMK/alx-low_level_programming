@@ -7,7 +7,11 @@
 char *_strdup(char *str)
 {
 	char *str2;
-	unsigned int i, len; 
+	unsigned int i, len;
+
+	i = 0;
+
+	len = 0;
 
 	if (str == NULL)
 	{
