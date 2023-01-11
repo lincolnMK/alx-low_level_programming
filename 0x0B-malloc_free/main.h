@@ -2,6 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
+char *argstostr(int ac, char **av);
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
