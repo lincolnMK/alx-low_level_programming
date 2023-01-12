@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _puts - pusts stiff innit
- * @str: first operanda
+ * print_rev - pusts stiff innit
+ * @s: first operanda
  * Return: 0 always
  */
 
@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	len = 0;
 
-	while (*(s+len) != '\0')
+	while (*(s + len) != '\0')
 	{
 
 		len++;
@@ -20,11 +20,10 @@ void print_rev(char *s)
 
 	k = 0;
 
-	for (k = len; k >= 0; k-- )
+	for (k = len; k >= 0; k--)
 	{
-		
 		printf("%c", *(s + k));
-		
+
 	}
 	printf("\n");
 }
