@@ -12,11 +12,9 @@ void puts2(char *str)
 
 	l2 = 0;
 
-	char *y = str;
-
-	while (*y != '\0')
+	while (*str != '\0')
 	{
-		y++;
+		str++;
 		l++;
 	}
 
