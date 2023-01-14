@@ -7,14 +7,14 @@
 void puts2(char *str)
 {
 	int l, l2, n;
-
+	char *y = str;
 	l = 0;
 
 	l2 = 0;
 
-	while (*str != '\0')
+	while (*y != '\0')
 	{
-		str++;
+		y++;
 		l++;
 	}
 
@@ -27,4 +27,5 @@ void puts2(char *str)
 			_putchar(str[n]);
 		}
 	}
+	_putchar('\n');
 }
