@@ -3,7 +3,7 @@
 #include "dog.h"
 /**
  * print_dog - prints dog details strutre
- * @d the struct type pointer to pbe printed
+ * @d: the struct type pointer to pbe printed
  *
  */
 void print_dog(struct dog *d)
@@ -20,8 +20,10 @@ void print_dog(struct dog *d)
 	{
 		d->owner = "(nil)";
 	}
-
 	printf("Name: %s\n", (*d).name);
-	printf("Age: %.1f\n", (*d).age);
+	if ((*d).age == 0.0)
+		printf("Age: (nil)\n");
+	else
+		printf("Age: %f\n", (*d).age);
 	printf("Owner: %s\n", (*d).owner);
 }
