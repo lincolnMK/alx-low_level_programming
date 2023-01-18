@@ -11,20 +11,28 @@ void print_name(char *name, void (*f)(char *))
 	int i;
 	char *dzina;
 
+	 if(name[0] == '\0')
+                return;
+
 	len = 0;
 
 	while (name[len] != 0)
 	{
 		len++;
 	}
-	dzina = malloc((len - 1) * sizeof(char *));
-
-	for (i = 0; i < (len - 1); i++)
+	if ((len - 1) != 0)
 	{
+		dzina = malloc((len - 1) * sizeof(char *));
+
+		for (i = 0; i <= (len - 1); i++)
+		{
 		dzina[i] = name[i];
+		}
+
+		f(dzina);
+
+		free(dzina);
 	}
-
-	f(dzina);
-
-	free(dzina);
+	else
+		return;
 }
