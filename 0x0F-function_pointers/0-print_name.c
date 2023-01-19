@@ -11,7 +11,7 @@ void print_name(char *name, void (*f)(char *))
 	int i;
 	char *dzina;
 
-	if (name[0] == '\0')
+	if (f == NULL || name[0] == '\0')
 		return;
 
 	len = 0;
