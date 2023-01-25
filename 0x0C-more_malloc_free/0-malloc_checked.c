@@ -10,6 +10,8 @@ void *malloc_checked(unsigned int b)
 {
 	if (b == 0)
 		exit(98);
+	if (malloc(b) == NULL)
+		exit(0);
 
 	return (malloc(b));
 }
