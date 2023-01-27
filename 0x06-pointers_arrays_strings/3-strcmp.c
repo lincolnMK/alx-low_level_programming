@@ -5,7 +5,7 @@
  * @s2: second operando
  * Return: test result
  */
-int _strcmp(cha *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 
