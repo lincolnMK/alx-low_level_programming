@@ -17,5 +17,5 @@ char *string_toupper(char *n)
 		}
 		c++;
 	}
-
+	return (n);
 }
